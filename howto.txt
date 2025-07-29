@@ -1,0 +1,3 @@
+docker build -t motivation-shorts-generator docker/.
+
+docker run --rm -v "$(pwd)":/app -v "$(pwd)/outputs":/app/outputs motivation-shorts-generator
